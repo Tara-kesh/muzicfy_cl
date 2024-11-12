@@ -24,7 +24,7 @@ const SectionGrid = ({ songs, title, isLoading }: SectionGridProps) => {
 				{songs.map((song) => (
 					<div
 						key={song._id}
-						className='bg-zinc-800/40 p-4 rounded-md hover:bg-zinc-700/40 transition-all group cursor-pointer'
+						className='bg-green-200/40 p-4 rounded-md hover:bg-green-100/40 transition-all group cursor-pointer'
 					>
 						<div className='relative mb-4'>
 							<div className='aspect-square rounded-md shadow-lg overflow-hidden'>

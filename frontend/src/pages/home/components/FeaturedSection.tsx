@@ -14,8 +14,8 @@ const FeaturedSection = () => {
 			{featuredSongs.map((song) => (
 				<div
 					key={song._id}
-					className='flex items-center bg-zinc-800/50 rounded-md overflow-hidden
-         hover:bg-zinc-700/50 transition-colors group cursor-pointer relative'
+					className='flex items-center bg-green-200/50 rounded-md overflow-hidden
+         hover:bg-green-100/50 transition-colors group cursor-pointer relative'
 				>
 					<img
 						src={song.imageUrl}

@@ -1,7 +1,7 @@
 const SectionGridSkeleton = () => {
 	return (
 		<div className='mb-8'>
-			<div className='h-8 w-48 bg-green-200 rounded mb-4 animate-pulse' />
+			<div className='h-8 w-48 bg-zinc-800 rounded mb-4 animate-pulse' />
 			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4'>
 				{Array.from({ length: 4 }).map((_, i) => (
 					<div key={i} className='bg-zinc-800/40 p-4 rounded-md animate-pulse'>

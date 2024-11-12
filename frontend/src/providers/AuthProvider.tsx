@@ -42,9 +42,13 @@ const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
 	if (loading)
 		return (
-			<div className='h-screen w-full flex items-center justify-center'>
-				<Loader className='size-8 text-emerald-500 animate-spin' />
-			</div>
+			<div className="h-screen w-full flex flex-col items-center justify-center space-y-4">
+      <h1 className="text-5xl font-bold padding-20 text-green-300">Muzicfy</h1>
+      <div className="flex items-center space-x-2">
+        <Loader className="h-8 w-8 text-green-500 animate-spin" />
+        <span className="text-0.5xl font-semibold">Loading...</span>
+      </div>
+    </div>
 		);
 
 	return <>{children}</>;

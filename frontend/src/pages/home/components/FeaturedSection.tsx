@@ -15,7 +15,7 @@ const FeaturedSection = () => {
 				<div
 					key={song._id}
 					className='flex items-center bg-zinc-800/50 rounded-md overflow-hidden
-         hover:bg-green-100/50 transition-colors group cursor-pointer relative'
+         hover:bg-zinc-700/50 transition-colors group cursor-pointer relative'
 				>
 					<img
 						src={song.imageUrl}
